@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>UBAKA Home</title>
+	<link rel="stylesheet" href="Ustyle1.css">
+	
+</head>
+
+
+
+	<div class="header">
+	
+	<h1>Urban Bulldogs Against Kids Abuse </h1>
+
+
+
+	
+	
+	<button id="menu"><img src="media/touchbutton.png" width="75px" height="20px" type='img/png'></img></button>
+	
+	
+	</div>
+	<img src="media/logosm.png" alt="Logo">
+	
+	
+	
+	<div id="navbar" class="nav">
+
+    <ul>
+        
+		  <li><a href="index.html">Home</a></li>
+		 <li><a href="mission.html">Mission</a></li>
+		 <li><a href="chapters.html">Chapters</a></li>
+		 <li><a href="resourcelinks.html">Resource Links</a></li>
+		 <li><a href="media.html">Media</a></li>
+		 <li><a href="contactus.html">Contact Us</a></li>
+	
+		 
+	</ul>
+	</div>
+	
+	<div class="main">
+	
+	
+		<h3>Urban Bulldogs Against Kids Abuse</h3>
+		<p>U.B.A.K.A. (URBAN BULLDOGS AGAINST KIDS ABUSE) is a non-profit biker organization who advocates against child abuse. Attached to the principal of a fundamental rights of the abused child, it exists to provide help, comfort, safety, and support to children who have been sexually, physically, and psychologically abused as well as to sick children and their families.
+
+We wear and show support by organizing events (Concerts, Swap Meets and various other fundraisers, etc.) where revenues are transferred to the various organizations in common. The organization is also designed to promote activities and establish close relations between bikers, to give through manifestations, a positive image of motorcycle owners. It's a friendly organization attached to share passion for the motorcycle enthusiast, develop mutual help between friends and participate in rides to encourage its members to participate in motorcycle events organized by the organization or with other motorcycle organizations in common.
+
+The ability to create a Chapter affiliated with the Urban Bulldogs Against Kids Abuse Chapter President is designed to bring together members who have a common interest in the promotion of activities cited in the preamble and to register on the same basic principles of the parent organization. All of our chapters throughout the United States, Europe, and Canada share the same compassion to protect our children and provide a barrier between them and the harm that threatens them. We will battle the epidemic of "child abuse" and continue to be supportive and fight for those who cannot fight for themselves.</p>
+</div>
+
+	
+		
+		<!--footer for the bottom of the page-->
+		<div class="footer">
+		&copy; <em><strong> 2017 UBAKA CANADA. &reg; URBAN BULLDOGS AGAINST KIDS ABUSE</em></strong></p>
+		</div>
+	<script>
+		var navbar = document.getElementById('navbar');
+		document.getElementById('menu').addEventListener('click', menuToggle);
+	
+		function menuToggle(){
+			var navbarDisplay = window.getComputedStyle(navbar).
+			getPropertyValue('display');
+			
+			if (navbarDisplay == 'none'){makeAppear(navbar);
+			}
+			else {
+				makeDisappear(navbar);
+			
+			}
+		}
+	
+		function makeAppear(element){
+		
+			element.style.display = 'block';
+		}
+		function makeDisappear(element){
+		
+			element.style.display = 'none';
+		}
+		
+		
+		
+		
+	</script>
+		
+	
+	
+</body>
+</html>

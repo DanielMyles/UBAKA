@@ -1,0 +1,132 @@
+
+
+button{
+	border-radius:3px;
+	outline:none;
+}
+
+img {
+	margin-right: 80%;
+}
+body {
+	background-color:#DFDAD4;
+    background-repeat: no-repeat;
+    background-position: center-top;
+    background-attachment:scroll;
+	background-size:100%;
+	font-family:"arial";
+	
+	margin:5px;
+	padding-left:5%;
+	padding-right:5%;
+	text-align:center
+}
+.nav li {
+ display: inline;
+}
+
+ul { 
+	display:inline;
+	list-style:underline;
+	font-family:georgian;
+	font-size:30px;
+	line-height:2;
+	
+	
+}	
+.nav li a {
+      display: inline;
+      font-family: georgian;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom;
+      text-transform: uppercase;
+    }
+a {
+	box-shadow: 2.5px 2.5px 2.5px black;
+	border-top:solid;
+	border-top-color:black;
+	border-left:solid;
+	border-left-color:black;
+	border-radius:3px;
+	
+    text-decoration:none;
+	color:#FD8003;
+	text-shadow:black 2px 2px 2px;
+	font-weight:bold;
+
+	
+}	
+.header {
+	
+	background: url(media/redgradient.png) 50% 100% no-repeat;
+	padding:5px;
+	font-family:georgian;
+	
+
+	border-radius:3px;
+	text-align:center;
+	font-size:20px;
+	color:darkred;
+	text-shadow:black 2px 2px 3px;
+	border-bottom:groove;
+	border-bottom-color:darkred;
+
+	
+	
+	
+	
+	
+	
+	
+}
+
+.nav 
+
+
+{
+	
+	line-height:10px;
+	
+}	
+@media screen and (min-width: 800px){	
+	.nav {	
+		width:100%;
+		float:left;
+		display:none;
+		
+	}	
+}
+
+
+.main>h3 {
+	color:black;
+	text-align:left;
+	font-family:Arial;
+}
+
+
+.footer {
+	border:double;
+	border-color:black;
+	background-color:silver;
+	color:darkred;
+	text-shadow:black 0px 0px 1px;
+	text-align:center;
+	font-family:georgian;
+	padding:5px;
+	clear:both;
+	border-radius:3px;
+}	
+p {
+	
+	font-family:arial;
+	font-size:16px;
+	text-align:left;
+	line-height: 1.5;
+	color:black;
+	text-shadow: darkred 0px 0px .5px;
+}
+ul {
+	list-style-type: none;
+}

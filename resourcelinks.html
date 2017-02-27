@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Resource links</title>
+	<link rel="stylesheet" href="Ustyle1.css">
+	
+</head>
+
+
+
+	<div class="header">
+	
+	<h1>Urban Bulldogs Against Kids Abuse </h1>
+
+
+
+	
+	
+	<button id="menu"><img src="media/touchbutton.png" width="75px" height="20px" type='img/png'></img></button>
+	
+	
+	</div>
+	<img src="media/logosm.png" alt="Logo">
+	
+	
+	
+	<div id="navbar" class="nav">
+
+    <ul>
+        
+		  <li><a href="index.html">Home</a></li>
+		 <li><a href="mission.html">Mission</a></li>
+		 <li><a href="chapters.html">Chapters</a></li>
+		 <li><a href="resourcelinks.html">Resource Links</a></li>
+		 <li><a href="media.html">Media</a></li>
+		 <li><a href="contactus.html">Contact Us</a></li>
+	
+		 
+	</ul>
+	</div>
+	
+	<div class="main">
+	
+	
+		<h3>Urban Bulldogs Against Kids Abuse</h3>
+<p>	
+<ul>
+		<li>Link1(example)</li>
+		<li>Link2(example)</li>
+		<li>Link3(example)</li> 
+		
+		
+</ul>
+</p>
+		
+</div>
+
+	
+		
+		<!--footer for the bottom of the page-->
+		<div class="footer">
+		&copy; <em><strong> 2017 UBAKA CANADA. &reg; URBAN BULLDOGS AGAINST KIDS ABUSE</em></strong></p>
+		</div>
+	<script>
+		var navbar = document.getElementById('navbar');
+		document.getElementById('menu').addEventListener('click', menuToggle);
+	
+		function menuToggle(){
+			var navbarDisplay = window.getComputedStyle(navbar).
+			getPropertyValue('display');
+			
+			if (navbarDisplay == 'none'){makeAppear(navbar);
+			}
+			else {
+				makeDisappear(navbar);
+			
+			}
+		}
+	
+		function makeAppear(element){
+		
+			element.style.display = 'block';
+		}
+		function makeDisappear(element){
+		
+			element.style.display = 'none';
+		}
+		
+		
+		
+		
+	</script>
+		
+	
+	
+</body>
+</html>

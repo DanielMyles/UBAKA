@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Mission</title>
+	<link rel="stylesheet" href="Ustyle1.css">
+	
+</head>
+
+
+
+	<div class="header">
+	
+	<h1>Urban Bulldogs Against Kids Abuse </h1>
+
+
+
+	
+	
+	<button id="menu"><img src="media/touchbutton.png" width="75px" height="20px" type='img/png'></img></button>
+	
+	
+	</div>
+	<img src="media/logosm.png" alt="Logo">
+	
+	
+	
+	<div id="navbar" class="nav">
+
+    <ul>
+        
+		 <li><a href="index.html">Home</a></li>
+		 <li><a href="mission.html">Mission</a></li>
+		 <li><a href="chapters.html">Chapters</a></li>
+		 <li><a href="resourcelinks.html">Resource Links</a></li>
+		 <li><a href="media.html">Media</a></li>
+		 <li><a href="contactus.html">Contact Us</a></li>
+	
+		 
+	</ul>
+	</div>
+	
+	<div class="main">
+	
+	
+		<h3>Our Mission</h3>
+		<p>Welcome to UBAKA Canada.   The mission is to protect children from abuse. 
+
+The "Urban Bulldogs Against Kids Abuse" UBAKA are growing within Canada, the US and Globally. If you are interested in becoming a member or a supporter of UBAKA, we are always looking for new recruits in every city, of every province/territory in Canada. Whether or not there is a chapter in your area, this is your invitation to get involved.  Check our calendar for meetings in your area.  Join the cause. 
+
+We come from all walks of life, unified by a common goal to support those affected by the crime, and to raise awareness about the problem.  It doesn't matter what brand of motorcycle you ride, just that you ride!  We stand up and give our strength to those most vulnerable. </p>
+</div>
+
+	
+		
+		<!--footer for the bottom of the page-->
+		<div class="footer">
+		&copy; <em><strong> 2017 UBAKA CANADA. &reg; URBAN BULLDOGS AGAINST KIDS ABUSE</em></strong></p>
+		</div>
+	<script>
+		var navbar = document.getElementById('navbar');
+		document.getElementById('menu').addEventListener('click', menuToggle);
+	
+		function menuToggle(){
+			var navbarDisplay = window.getComputedStyle(navbar).
+			getPropertyValue('display');
+			
+			if (navbarDisplay == 'none'){makeAppear(navbar);
+			}
+			else {
+				makeDisappear(navbar);
+			
+			}
+		}
+	
+		function makeAppear(element){
+		
+			element.style.display = 'block';
+		}
+		function makeDisappear(element){
+		
+			element.style.display = 'none';
+		}
+		
+		
+		
+		
+	</script>
+		
+	
+	
+</body>
+</html>
